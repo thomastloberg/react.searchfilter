@@ -30,7 +30,7 @@ function App() {
   return (
     <div className='app'>
       <div>
-        Search: <input name='query' type='text' onChange={handleSearch}/>
+        <input name='query' type='text' placeholder='Search...' autofocus onChange={handleSearch}/>
       </div>
       
       {filterList && filterList.map((item, index) => (
