@@ -1,1 +1,1 @@
-A small Reach live search test
+A small React LiveSearch test
